@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>signup</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="center">
+  <app-logo></app-logo>
+  <h2>Create an Account</h2>
+  </div>
+<form>
+   <ion-list>
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <input type="text">   
+    </ion-item> 
+    <ion-item>
+    <ion-label position="stacked">Username</ion-label>
+    <input type="text">   
+  </ion-item> 
+  <ion-item>
+    <ion-label position="stacked">Password</ion-label>
+    <input type="password">   
+  </ion-item>
+  <ion-item lines="none">
+    Already you have an account?<a routerLink='/login'>Signin</a>
+  </ion-item>
+  <ion-button expand="block" shape="round" color="success">Signup</ion-button>
+  </ion-list>
+</form>
+</ion-content>
