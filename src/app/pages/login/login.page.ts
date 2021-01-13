@@ -6,14 +6,17 @@ import { Router } from '@angular/router';
   templateUrl: './login.page.html',
   styleUrls: ['./login.page.scss'],
 })
+
 export class LoginPage implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor(private router:Router) {  }
 
   ngOnInit() {
   }
   login()
   {
-    this.router.navigate(['/home/feed']);
+  
+  this.router.navigate(['/home/feed']);
+  
   }
 }
